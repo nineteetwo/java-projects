@@ -14,5 +14,6 @@ public class temperature_converter {
         double temperature = input.nextDouble();
         String result = (choice == 1) ? "The result is " + ((5.0 / 9) * (temperature - 32)) : "The result is " + ((temperature * 9.0 / 5) + 32);
         System.out.println(result);
+        input.close();
     }
 }
